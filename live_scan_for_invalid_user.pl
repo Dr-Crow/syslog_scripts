@@ -11,7 +11,7 @@ $FILENAME="/data/rsyslog/messages";
 $WAIT_TIME_IN_MINUTES=60;
 $SEND_NEXT_EMAIL_AT_THIS_TIME=0; # This gets updated to current time 
                                  # after first email is sent
-$EMAIL="eric.wedaa\@marist.edu,jeffrey.kirby\@marist.edu,Johannes.Sayre\@Marist.edu,Joseph.Augulis\@Marist.edu,Martha.McConaghy\@Marist.edu,net.admins\@marist.edu";
+$EMAIL="adminteam\@example.com ";
 $START_TIME=6;   # Start time to start sending emails (6:00 AM)
 $END_TIME=18;    # Don't send email after this time (6:00 PM)
 
@@ -21,8 +21,8 @@ $END_TIME=18;    # Don't send email after this time (6:00 PM)
 sub clear_email_message {
 	$COUNTER=0;
 	open (FILE, ">$SYSLOG_LINES_GO_HERE");
-	print (FILE "This email came from syslog.it.marist.edu\n");
-print (FILE "It is scanning $FILENAME and alerts every $ALERT_LEVEL\n");
+	print (FILE "This email came from ADD HOSTNAME HERE\n");
+	print (FILE "It is scanning $FILENAME and alerts every $ALERT_LEVEL\n");
 	print (FILE "times it sees an \"Invalid user\" line in the file and\n");
 	print (FILE "will wait $WAIT_TIME_IN_MINUTES minutes before sending another alert.\n");
 	print (FILE "\n");
@@ -40,9 +40,7 @@ print (FILE "It is scanning $FILENAME and alerts every $ALERT_LEVEL\n");
 if ( -f $FILENAME ) {
 	tie *FH, "File::Tail", (name => $FILENAME);
 	while (<FH>) {
-		if (/10.10.1.78/){next;}
-		if (/10.10.5.45/){next;}
-		if (/nessus.it.marist.edu/){next;}
+		if (/nessus.example.com/){next;}
 		if (
 			(/Invalid user/)||
 			(/Failed keyboard-interactive\/pam for/)||
