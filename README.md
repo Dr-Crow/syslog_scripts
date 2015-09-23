@@ -1,4 +1,4 @@
-README for LongTail Log Analysis.
+README for Syslog_Scripts
 ==============
 
 syslog_scripts are tools to sort information in a syslog file
