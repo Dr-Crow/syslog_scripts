@@ -1,0 +1,1367 @@
+#Misc stuff
+home/rubyapps
+cfg2 systemd: Starting
+cfg2 systemd: Started
+Send automated reminder mail to patrons
+systemd: Starting Cleanup of Temporary Directories
+imic CRON
+tsmdisaster NetworkManager
+nessus.it.marist.edu
+10.10.1.78
+mounted filesystem with ordered data mode. Opts
+pam_limits(crond:session)
+hard#011nofile#0114096
+failed login attempt for UNKNOWN_USER from dn-pf-fsm.it.marist.edu
+warning: database /etc/postfix/transport.db is older than source file 
+failed to bind to LDAP server ldap://127.0.0.1/
+powergoldenrhel nslcd
+AIXGoldenEricw: syslog: slp_srvreg : All of 3 tries to launch the SLP 
+/packaging/scripts/create-svn-repositories
+maps to cms.it.marist.edu
+u01/app/sghe/banner/inb/
+Reading included configuration file
+Setting latency timer of device
+PREFETCH window 0x000000
+kernel: PCI: Bridge:
+MEM window
+kernel: Nosave address range
+/home/urbg/netstatcheck
+php -f cron.php
+GURJOBS_CHECK_CNRPROD.log
+(voyager) CMD (/m1/voyager/maristdb/sbin/ambk-send.scr 
+(voyager) CMD (/m1/voyager/maristdb/sbin/ebc-send.scr 
+(voyager) CMD (/m1/home/voyager/summon-updates.scr 
+(voyager) CMD (/m1/home/voyager/summon-upd-send.scr 
+(voyager) CMD (/m1/home/voyager/summon-deltest.scr 
+(voyager) CMD (/m1/home/voyager/summon-del-send.scr 
+(oracle) CMD (. /home/oracle/.profile ; /m1/utility/dp_backup.pl /m1/incoming/dbe > /m1/incoming/db_dump.log 2>&1 )
+(root) CMD (/usr/sbin/logrotate -f /etc/logrotate.d/psacct)
+(root) CMD (/etc/init.d/psacct restart)
+(voyager) CMD (/m1/voyager/maristdb/sbin/Pcircjob -j1 
+(voyager) CMD (/m1/home/voyager/holdrun 
+(voyager) CMD (/m1/voyager/maristdb/sbin/Pcircjob -j2 
+(voyager) CMD (/m1/home/voyager/backlogtome 
+(voyager) CMD (/m1/voyager/maristdb/sbin/newBooks.pl 
+(voyager) CMD (/m1/voyager/traindb/sbin/Pcircjob -j1 
+(voyager) CMD (/m1/voyager/traindb/sbin/Pcircjob -j24 
+(voyager) CMD (/m1/voyager/maristdb/sbin/Pcircjob -j24 
+(voyager) CMD (/m1/voyager/traindb/sbin/Pcircjob -j2 
+(voyager) CMD (/m1/voyager/maristdb/sbin/mid-send.scr 
+maristdb_Pacqsvr status=0 
+maristdb_Pcatsvr status=0 
+maristdb_Pcircsvr status=0 
+maristdb_Pkeysvr status=0 
+maristdb_Pmfhdkeysvr status=0 
+maristdb_Popacsvr status=0 
+traindb_Tkeysvr status=0 
+traindb_Topacsvr status=0 
+maristdb_Pacqsvr 
+maristdb_Pcatsvr 
+maristdb_Pcircsvr 
+maristdb_Pkeysvr 
+maristdb_Pmfhdkeysvr 
+maristdb_Popacsvr 
+END Batch Job Cancel expired reservations.
+END Batch Job Convert overdue invoices to holds.
+END Batch Job Delete expired request log entries.
+END Batch Job Disable expired patron holds.
+END Batch Job Disable expired patrons.
+END Batch Job Email errors.
+END Batch Job Expire import sessions.
+END Batch Job Expire sessions.
+END Batch Job Expire uncommitted allocations.
+END Batch Job Pickup autocirculating allocations.
+END Batch Job Return autocirculating allocations.
+START Batch Job Cancel expired reservations.
+START Batch Job Delete expired request log entries.
+START Batch Job Disable expired patron holds.
+START Batch Job Disable expired patrons.
+START Batch Job Email errors.
+START Batch Job Expire import sessions.
+START Batch Job Expire sessions.
+START Batch Job Expire uncommitted allocations.
+START Batch Job See if there are any long running IDLE transactions
+(root) CMD (/usr/local/sbin/recycle_fucking_devmon.sh)
+Address 148.100.100.4
+nss_getpwnam: name 'nobody' does not map into domain
+(eprint) CMD ($HOME/code/
+su: (to nobody) root on none
+/usr/local/voicerite/get_process_info
+TEST FROM Shibboleth-3
+kernel: Process httpd2-prefork
+rdist: The connection has been lost
+adjust time server
+init: Disconnected from system bus
+last message repeated
+CMD (/usr/lib64/sa/sa1 1 1)
+CMD (/usr/lib/sa/sa1 1 1)
+(date >> /var/log/mysql-count;
+/usr/local/sbin/backup_pureflex.sh
+/usr/sbin/raid-check
+rsyslogd was HUPed
+session closed for user shibd
+-- MARK --
+Connection closed by 
+session closed for user root
+/lib64/security/pam_fprintd.so
+###############Xymon Stuff
+xymon : TTY=unknown ; PWD=/home/xymon ; USER=root ; COMMAND=/usr/bin/find
+###############Cron Stuff
+/usr/sbin/cron
+/etc/cron.backup)
+(@reboot jobs will be run at computer's startup.)
+CMD (run-parts /etc/cron.daily
+starting clocksync.sh
+CMD (/usr/lib/sa/sa2 
+RELOAD (/etc/cron.d/0hourly)
+RELOAD (/etc/cron.d/raid-check)
+run-parts(/etc/cron.backup)
+CMD (/usr/bin/htfuzzy
+CMD (/usr/sbin/ntpdate
+CMD (/sbin/logrotate-m 
+CMD (/usr/sbin/logrotate-m
+CMD (/usr/bin/htdig 
+starting 0anacron
+Updated timestamp for job `cron.weekly
+(root) CMD (run-parts /etc/cron.weekly)
+/etc/cron.weekly
+starting readahead-monthly.cron
+finished readahead-monthly.cron
+run-parts(/etc/cron.daily)
+Job `cron.daily' started
+Job `cron.daily' terminated
+Job `cron.weekly' started
+Job `cron.weekly' terminated
+/usr/sbin/logwatch
+Normal exit (2 jobs run)
+Will run job `cron.daily' in
+Will run job `cron.weekly' in
+Normal exit (1 job run)
+(urew) LIST (urew)
+(root) LIST (root)
+run-parts(/etc/cron.hourly)
+Will run job `cron.monthly' in 56 min.
+Job `cron.daily' locked by another anacron - skipping
+Job `cron.weekly' locked by another anacron - skipping
+(CRON) INFO (RANDOM_DELAY 
+/usr/local/etc/ilearn.sh
+/opt/membershipTransformation.sh
+(CRON) INFO (running with inotify support)
+(CRON) STARTUP 
+Job `cron.monthly' started
+Job `cron.monthly' terminated
+Will run job `cron.monthly' in 
+Anacron started on 
+Job `cron.monthly' locked by another anacron 
+Jobs will be executed sequentially
+Normal exit (0 jobs run)
+finished 0anacron
+(root) CMD (run-parts /etc/cron.hourly)
+(C) 2000-2006 Netfilter Core Team
+imklog 5.8.10, log source = /proc/kmsg started.
+authenticated unmount request from 
+authenticated mount request from
+origin software="rsyslogd" swVersion=
+killed by TERM signal
+syslog: slp:
+syslogd: restart
+system-config-network
+/usr/lib64/sa/sa2
+/usr/local/sbin/get_patches.sh
+synchronized to 
+/usr/local/sbin/get_pureflex_guests_and_clients.sh
+/var/log/mysql-count
+##############Kernel boot related stuff
+limipomvov1 kernel
+limipowb1 kernel
+kernel: Zone PFN ranges:
+kernel: SELinux: 
+kernel: pci 
+kernel: x86 PAT enabled: 
+kernel: Write protecting the kernel read-only data:
+kernel: vgaarb: loaded
+kernel: vgaarb: device added:
+kernel: vgaarb: bridge control 
+kernel: VFS: Disk quotas 
+kernel: Using ACPI (MADT)
+kernel: Use unified mapping for non-reserved 
+kernel: - User ID: Red Hat
+kernel: usbhid: v2.6:USB HID core driver
+kernel: usbcore: registered new interface driver 
+kernel: unknown partition table
+kernel: Uniform CD-ROM driver
+kernel: uhci_hcd: USB Universal 
+kernel: udev: starting version 
+kernel: udev: renamed network interface eth
+kernel: type=1
+kernel: system 00:
+kernel: TCP bind hash
+kernel: TCP cubic 
+kernel: Switching to clocksource 
+kernel: SRAT: Node 0 PXM 0 
+kernel: software IO TLB at phys
+kernel: SMP alternatives:
+kernel: SMP: Allowing 1 CPUs
+kernel: SMBIOS version
+kernel: sizeof(
+kernel: Simple Boot Flag at
+kernel: shpchp: Standard Hot Plug PCI 
+kernel: Setting APIC routing 
+kernel: serio: i8042 
+kernel: serial8250
+kernel: Security Framework initialized
+kernel: sd 2:0
+kernel: registered taskstats
+kernel: reg 1, base: 
+kernel: pnp 00
+kernel: PM: Registered nosave memory
+kernel: pcieport 0000
+kernel: pciehp
+kernel: 0000000000 -
+kernel: #0 [0000000000
+kernel: 00000-9FFFF write-back
+kernel: 00:09: ttyS0
+kernel: 00:0a: ttyS1
+kernel: 0: 0x00000010
+kernel: 0: 0x00000100
+kernel: 0: 0x000bff00
+kernel: 0: 0x00100000
+kernel: 0100000000 -
+kernel: #01100 00
+kernel: #01100 52
+kernel: #01100 fc
+kernel: #01101 01
+kernel: #01120 20
+kernel: #01126 30
+kernel: #011ff ff
+kernel: 0 base
+kernel: #1 [0000006000
+kernel: 1 base
+kernel: #2 [0001000000
+kernel: 2 base
+kernel: #3 [0036f88000
+kernel: 3 disabled
+kernel: #4 [000009f800
+kernel: 4 disabled
+kernel: #5 [0002021000
+kernel: 5 disabled
+kernel: #6 [0000010000
+kernel: 6 disabled
+kernel: #7 [0000012000
+kernel: 7 disabled
+kernel: (8 early
+kernel: A0000-BFFFF uncachable
+kernel: ACPI: AC
+kernel: ACPI: ACPI
+kernel: ACPI: acpi_idle
+kernel: ACPI: APIC
+kernel: ACPI: BIOS
+kernel: ACPI: BOOT
+kernel: ACPI: bus
+kernel: ACPI: Core
+kernel: ACPI: DSDT
+kernel: ACPI: EC:
+kernel: ACPI: FACP
+kernel: ACPI: FACS
+kernel: ACPI: If
+kernel: ACPI: Interpreter
+kernel: ACPI: INT_SRC_OVR
+kernel: ACPI: IOAPIC
+kernel: ACPI: IRQ0
+kernel: ACPI: IRQ2
+kernel: ACPI: IRQ9
+kernel: ACPI: LAPIC
+kernel: ACPI: LAPIC_NMI
+kernel: ACPI: Local
+kernel: ACPI: MCFG
+kernel: ACPI: No
+kernel: ACPI: PCI
+kernel: acpiphp: ACPI
+kernel: acpiphp_glue: Slot
+kernel: acpiphp: Slot
+kernel: ACPI: PM-Timer
+kernel: ACPI: Power
+kernel: ACPI: resource
+kernel: ACPI: RSDP
+kernel: ACPI: SRAT
+kernel: ACPI: (supports
+kernel: ACPI: Using
+kernel: ACPI: XSDT
+kernel: - Added
+kernel: Adding 2097144k
+kernel: agpgart-intel 0000:00:00.0:
+kernel: alg: No
+kernel: allocated 16777216
+kernel: Allocating PCI
+kernel: alloc irq_desc
+kernel: alloc kstat_irqs
+kernel: alternatives: switching
+kernel: AMD AuthenticAMD
+kernel: APIC routing
+kernel: ata1: PATA
+kernel: ata2.00: ATAPI:
+kernel: ata2.00: configured
+kernel: ata2: PATA
+kernel: ata_piix 0000:00:07.1:
+kernel: audit: initializing
+kernel: bio: create
+kernel: BIOS-e820: 0000000000000000
+kernel: BIOS-e820: 000000000009f800
+kernel: BIOS-e820: 00000000000ca000
+kernel: BIOS-e820: 00000000000dc000
+kernel: BIOS-e820: 00000000000e8000
+kernel: BIOS-e820: 0000000000100000
+kernel: BIOS-e820: 00000000bfef0000
+kernel: BIOS-e820: 00000000bfeff000
+kernel: BIOS-e820: 00000000bff00000
+kernel: BIOS-e820: 00000000e0000000
+kernel: BIOS-e820: 00000000fec00000
+kernel: BIOS-e820: 00000000fee00000
+kernel: BIOS-e820: 00000000fffe0000
+kernel: BIOS-e820: 0000000100000000
+kernel: BIOS-provided physical
+kernel: Block layer
+kernel: Booting paravirtualized
+kernel: bootmap [0000000000047000
+kernel: Bootmem setup
+kernel: brd: module
+kernel: Brought up
+kernel: Built 1
+kernel: C0000-CBFFF write-protect
+kernel: Calibrating delay
+kernel: CC000-EFFFF uncachable
+kernel: Centaur CentaurHauls
+kernel: Checking aperture...
+kernel: Command line:
+kernel: Console: colour
+kernel: console [tty0]
+kernel: Copyright (c)
+kernel: CPU0: Intel(R)
+kernel: cpuidle: using
+kernel: CPU: Physical
+kernel: crash memory
+kernel: Dentry cache
+kernel: Detected 2666.761
+kernel: device-mapper: ioctl:
+kernel: device-mapper: uevent:
+kernel: devtmpfs: initialized
+kernel: Disabled fast
+kernel: DMA 0x00000010
+kernel: DMA32 0x00001000
+kernel: DMA32 zone:
+kernel: DMA zone:
+kernel: DMI present.
+kernel: DMI: VMware,
+kernel: Dquot-cache hash
+kernel: dracut: 
+kernel: dracut: dracut-004-336.el6_5.2
+kernel: dracut: inactive
+kernel: dracut: Loading
+kernel: dracut: Mounted
+kernel: dracut: rd_NO_DM:
+kernel: dracut: rd_NO_LUKS:
+kernel: dracut: rd_NO_MD:
+kernel: dracut: Scanning
+kernel: dracut: Starting
+kernel: dracut: Switching
+kernel: e1000 0000:02:00.0:
+kernel: e1000: Copyright
+kernel: e1000: eth2
+kernel: e1000: Intel(R)
+kernel: e820 remove
+kernel: e820 update
+kernel: early_node_map[4] active
+kernel: EFI Variables
+kernel: ehci_hcd: USB
+kernel: EXT3-fs (sda1):
+kernel: EXT4-fs (dm-0):
+kernel: EXT4-fs (dm-2):
+kernel: Extended CMOS
+kernel: F0000-FFFFF write-protect
+kernel: Faking a
+kernel: [ffffea0000000000-ffffea00045fffff] PMD
+kernel: [Firmware Bug]:
+kernel: Fixed MDIO
+kernel: Found optimal
+kernel: found SMP
+kernel: Freeing initrd
+kernel: Freeing SMP
+kernel: Freeing unused
+kernel: ftrace: allocating
+kernel: ftrace: converting
+kernel: Fusion MPT
+kernel: GHES: HEST
+kernel: gran_size: 64K
+kernel: GRE over
+kernel: Hierarchical RCU
+kernel: HugeTLB registered
+kernel: Hypervisor detected:
+kernel: imklog 4.6.2,
+kernel: Initalizing network
+kernel: Initializing cgroup
+kernel: Initializing XFRM
+kernel: initial memory
+kernel: init_memory_mapping: 0000000000000000-00000000c0000000
+kernel: init_memory_mapping: 0000000100000000-0000000140000000
+kernel: Inode-cache hash
+kernel: input: AT
+kernel: input: ImPS/2
+kernel: input: Macintosh
+kernel: input: Power
+kernel: Intel GenuineIntel
+kernel: IOAPIC[0]: apic_id
+kernel: ioc0: LSI53C1030
+kernel: io scheduler
+kernel: ipmi message
+kernel: ipmi_si: Adding
+kernel: ipmi_si: Interface
+kernel: ipmi_si: Trying
+kernel: ipmi_si: Unable
+kernel: IPMI System
+kernel: IP route
+kernel: Kernel command
+kernel: kernel direct
+kernel: KERNEL supported
+kernel: kjournald starting.
+kernel: ksign: Installing
+kernel: last_pfn =
+kernel: libata version
+kernel: Linux agpgart
+kernel: Linux version
+kernel: Loading keyring
+kernel: lo: Disabled
+kernel: loop: module
+kernel: mce: CPU
+kernel: Memory: 3904356k/5242880k
+kernel: mice: PS/2
+kernel: microcode: CPU0
+kernel: Microcode Update
+kernel: Mount-cache hash
+kernel: Movable zone
+kernel: mptbase: ioc0:
+kernel: mptspi 0000:00:10.0:
+kernel: msgmni has
+kernel: MTRR default
+kernel: MTRR fixed
+kernel: MTRR variable
+kernel: NetLabel: domain
+kernel: NetLabel: Initializing
+kernel: NetLabel: protocols
+kernel: NetLabel: unlabeled
+kernel: NET: Registered
+kernel: New variable
+kernel: nf_conntrack version
+kernel: NMI watchdog
+kernel: No AGP
+kernel: NODE_DATA [0000000000013000
+kernel: No NUMA
+kernel: Non-volatile memory
+kernel: Normal 0x00100000
+kernel: Normal zone:
+kernel: NR_CPUS:4096 nr_cpumask_bits:1
+kernel: NR_IRQS:33024 nr_irqs:256
+kernel: nr_irqs_gsi: 24
+kernel: ohci_hcd: USB
+kernel: On node
+kernel: original variable
+kernel: parport0: PC-style
+kernel: parport_pc 00:08:
+kernel: pci0000:00: ACPI
+kernel: pci0000:00: Requesting
+kernel: pci_bus 0000:00:
+kernel: pci_bus 0000:02:
+kernel: pci_bus 0000:03:
+kernel: pci_bus 0000:04:
+kernel: pci_bus 0000:05:
+kernel: pci_bus 0000:06:
+kernel: pci_bus 0000:07:
+kernel: pci_bus 0000:08:
+kernel: pci_bus 0000:09:
+kernel: pci_bus 0000:0a:
+kernel: pci_bus 0000:0b:
+kernel: pci_bus 0000:0c:
+kernel: pci_bus 0000:0d:
+kernel: pci_bus 0000:0e:
+kernel: pci_bus 0000:0f:
+kernel: pci_bus 0000:10:
+kernel: pci_bus 0000:11:
+kernel: pci_bus 0000:12:
+kernel: pci_bus 0000:13:
+kernel: pci_bus 0000:14:
+kernel: pci_bus 0000:15:
+kernel: pci_bus 0000:16:
+kernel: pci_bus 0000:17:
+kernel: pci_bus 0000:18:
+kernel: pci_bus 0000:19:
+kernel: pci_bus 0000:1a:
+kernel: pci_bus 0000:1b:
+kernel: pci_bus 0000:1c:
+kernel: pci_bus 0000:1d:
+kernel: pci_bus 0000:1e:
+kernel: pci_bus 0000:1f:
+kernel: pci_bus 0000:20:
+kernel: pci_bus 0000:21:
+kernel: pci_bus 0000:22:
+kernel: PCI-DMA: Using
+kernel: PCI host
+kernel: pci_hotplug: PCI
+kernel: PCI: max
+kernel: PCI: MCFG
+kernel: PCI: old
+kernel: PCI: pci_cache_line_size
+kernel: pci_root PNP0A03:00:
+kernel: PCI: Using
+kernel: pcpu-alloc: [0]
+kernel: pcpu-alloc: s94872
+kernel: PERCPU: Embedded
+kernel: Performance Events:
+kernel: Phoenix BIOS
+kernel: PID hash
+kernel: pid_max: default:
+kernel: Placing 64MB
+kernel: platform microcode:
+kernel: please try
+kernel: PM: Registering
+kernel: pnp: PnP
+kernel: PNP: PS/2
+kernel: Policy zone:
+kernel: ppdev: user-space
+kernel: RAMDISK: 36f88000
+kernel: Raw EDID:
+kernel: Refined TSC
+kernel: reg 0,
+kernel: reg 2,
+kernel: regulator: core
+kernel: Reserving 129MB
+kernel: rtc0: alarms
+kernel: rtc_cmos 00:04:
+kernel: SCSI subsystem
+kernel: sd 0:0:0:0:
+kernel: sd 0:0:1:0:
+kernel: sda: 
+kernel: sda: sda1
+kernel: sdb: sda1
+kernel: sdb: unknown
+kernel: Serial: 8250/16550
+kernel: TCP established
+kernel: TCP: Hash
+kernel: TCP reno
+kernel: ..TIMER: vector=0x30
+kernel: Total of
+kernel: total RAM
+kernel: Trying to
+kernel: TSC freq
+kernel: type=2000 audit(1403543206.553:1):
+kernel: type=2000 audit(1403543208.554:1):
+kernel: type=2000 audit(1403543211.554:1):
+kernel: usbcore: registered
+syslog kernel: nf_conntrack
+kernel:  #3
+kernel: sda:
+kernel:  #0
+kernel:  00000-9FFFF write-back
+kernel:    0:
+kernel:  0 base 
+kernel:  #1 
+kernel:  1 base 
+kernel:  #2 
+kernel:  2 base 
+kernel:  3 disabled
+kernel:  #4 
+kernel:  4 disabled
+kernel:  #5 
+kernel:  5 disabled
+kernel:  #6 
+kernel:  6 disabled
+kernel:  #7 
+kernel:  7 disabled
+kernel:  A0000-BFFFF uncachable
+kernel:  alloc irq_desc for
+kernel:  AMD AuthenticAMD
+kernel:  bootmap 
+kernel:  C0000-CBFFF write-protect
+kernel:  CC000-EFFFF uncachable
+kernel:  Centaur CentaurHauls
+kernel:  DMA
+kernel:  DMA32
+kernel:  F0000-FFFFF write-protect
+kernel:  Intel GenuineIntel
+kernel: NetLabel:
+kernel: NetLabel:
+kernel: NetLabel:
+kernel:  NODE_DATA
+kernel:  Normal   0x00100000 -> 0x00140000
+kernel:  Normal zone: 
+kernel:  alloc kstat_irqs on node -1
+scsi0 : ata_piix
+scsi1 : ata_piix
+scsi 1:0:0:0: CD-ROM            NECVMWar VMware IDE CDR10 1.00 PQ: 0 ANSI: 5
+scsi2 : ioc0: LSI53C1030 B0, FwRev=01032920h, Ports=1, MaxQ=128, IRQ=17
+scsi 2:0:0:0: Direct-Access     VMware   Virtual disk     1.0  PQ: 0 ANSI: 2
+scsi target2:0:0: Beginning Domain Validation
+scsi target2:0:0: Domain Validation skipping write tests
+scsi target2:0:0: Ending Domain Validation
+scsi target2:0:0: FAST-40 WIDE SCSI 80.0 MB/s ST (25 ns, offset 127)
+scsi 2:0:1:0: Direct-Access     VMware   Virtual disk     1.0  PQ: 0 ANSI: 2
+scsi target2:0:1: Beginning Domain Validation
+scsi target2:0:1: Domain Validation skipping write tests
+scsi target2:0:1: Ending Domain Validation
+scsi target2:0:1: FAST-40 WIDE SCSI 80.0 MB/s ST (25 ns, offset 127)
+sr0: scsi3-mmc drive: 1x/1x writer dvd-ram cd/rw xa/form2 cdda tray
+sr 1:0:0:0: Attached scsi CD-ROM sr0
+sr 1:0:0:0: Attached scsi generic sg0 type 5
+sd 2:0:0:0: Attached scsi generic sg1 type 0
+sd 2:0:1:0: Attached scsi generic sg2 type 0
+scsi0 : ioc0: LSI53C1030 B0, FwRev=01032920h, Ports=1, MaxQ=128, IRQ=17
+scsi 0:0:0:0: Direct-Access     VMware   Virtual disk     1.0  PQ: 0 ANSI: 2
+scsi target0:0:0: Beginning Domain Validation
+scsi target0:0:0: Domain Validation skipping write tests
+scsi target0:0:0: Ending Domain Validation
+scsi target0:0:0: FAST-40 WIDE SCSI 80.0 MB/s ST (25 ns, offset 127)
+scsi 0:0:1:0: Direct-Access     VMware   Virtual disk     1.0  PQ: 0 ANSI: 2
+scsi target0:0:1: Beginning Domain Validation
+scsi target0:0:1: Domain Validation skipping write tests
+scsi target0:0:1: Ending Domain Validation
+scsi target0:0:1: FAST-40 WIDE SCSI 80.0 MB/s ST (25 ns, offset 127)
+scsi1 : ata_piix
+scsi2 : ata_piix
+scsi 2:0:0:0: CD-ROM            NECVMWar VMware IDE CDR10 1.00 PQ: 0 ANSI: 5
+sr0: scsi3-mmc drive: 1x/1x writer dvd-ram cd/rw xa/form2 cdda tray
+sr 2:0:0:0: Attached scsi CD-ROM sr0
+sd 0:0:0:0: Attached scsi generic sg0 type 0
+sd 0:0:1:0: Attached scsi generic sg1 type 0
+sr 2:0:0:0: Attached scsi generic sg2 type 5
+scsi0 : ioc0: LSI53C1030 B0, FwRev=01032920h, Ports=1, MaxQ=128, IRQ=17
+scsi 0:0:0:0: Direct-Access     VMware   Virtual disk     1.0  PQ: 0 ANSI: 2
+scsi target0:0:0: Beginning Domain Validation
+scsi target0:0:0: Domain Validation skipping write tests
+scsi target0:0:0: Ending Domain Validation
+scsi target0:0:0: FAST-40 WIDE SCSI 80.0 MB/s ST (25 ns, offset 127)
+scsi 0:0:1:0: Direct-Access     VMware   Virtual disk     1.0  PQ: 0 ANSI: 2
+scsi target0:0:1: Beginning Domain Validation
+scsi target0:0:1: Domain Validation skipping write tests
+scsi target0:0:1: Ending Domain Validation
+scsi target0:0:1: FAST-40 WIDE SCSI 80.0 MB/s ST (25 ns, offset 127)
+scsi1 : ata_piix
+scsi2 : ata_piix
+scsi 2:0:0:0: CD-ROM            NECVMWar VMware IDE CDR10 1.00 PQ: 0 ANSI: 5
+sr0: scsi3-mmc drive: 1x/1x writer dvd-ram cd/rw xa/form2 cdda tray
+sr 2:0:0:0: Attached scsi CD-ROM sr0
+sd 0:0:0:0: Attached scsi generic sg0 type 0
+sd 0:0:1:0: Attached scsi generic sg1 type 0
+sr 2:0:0:0: Attached scsi generic sg2 type 5
+Kernel logging (proc) stopped
+kernel: [<ffffffff8100c200>] ? child_rip+0x0/0x20
+kernel: [<ffffffff8100c20a>] child_rip+0xa/0x20
+kernel: [<ffffffff81061d00>] ? default_wake_function+0x0/0x20
+kernel: [<ffffffff8109ab60>] ? kthread+0x0/0xa0
+kernel: [<ffffffff8109abf6>] kthread+0x96/0xa0
+kernel: [<ffffffff811bb410>] vfs_fsync_range+0x90/0x100
+kernel: [<ffffffff811bb4ed>] vfs_fsync+0x1d/0x20
+kernel: [<ffffffff8152a20b>] mutex_lock+0x2b/0x50
+kernel: [<ffffffff8152a36e>] __mutex_lock_slowpath+0x13e/0x180
+kernel: [<ffffffffa045e844>] svc_process_common+0x344/0x640
+kernel: [<ffffffffa045ee80>] svc_process+0x110/0x160 [sunrpc]
+kernel: [<ffffffffa0503425>] nfsd_dispatch+0xe5/0x230 [nfsd]
+kernel: [<ffffffffa0503a90>] ? nfsd+0x0/0x160 [nfsd]
+kernel: [<ffffffffa0503b52>] nfsd+0xc2/0x160 [nfsd]
+kernel: [<ffffffffa050a00b>] nfsd_commit+0x6b/0xa0 [nfsd]
+kernel: [<ffffffffa051161d>] nfsd3_proc_commit+0x9d/0x100 [nfsd]
+kernel:      Not tainted 2.6.32-431.23.3.el6.x86_64 #1
+##############Other Kernel stuff
+init: Switching to runlevel: 0
+init: Switching to runlevel: 6
+kernel: FS-Cache: Loaded
+kernel: FS-Cache: Netfs 'nfs' registered for caching
+kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+kernel: RPC: Registered tcp transport module.
+kernel: RPC: Registered udp transport module.
+kernel: Slow work thread pool: Ready
+kernel: Slow work thread pool: Starting up
+shutting down for system reboot
+shutting down for system halt
+Configuration file /etc/smartd.conf was parsed, found DEVICESCAN, scanning devices
+Drive: DEVICESCAN, implied '-a' Directive on line 26 of file /etc/smartd.conf
+In the system's table of devices NO devices found to scan
+Opened configuration file /etc/smartd.conf
+kernel:  [<0000
+pages in swap cache
+total pagecache pages
+pages shared
+kernel: active_anon:
+kernel:  active_file:
+kernel: DMA: 
+kernel: Free swap
+acpiphp: Slot [
+pages non-shared
+kernel:  unevictable:
+kernel: DMA free:
+kernel:  free:
+kernel:  mapped:
+kernel: Out of memory: kill process
+kernel: Process dsmc 
+kernel: Process htsearch 
+kernel: Swap cache stats:
+kernel: CPU    0
+kernel: CPU    1
+kernel:        0000000
+##############User Login Stuff
+Accepted publickey for urew from 2620:91:0:96:214:5eff:fe2a:6fa0
+session closed for user 
+subsystem request for sftp
+session opened for user urew
+session opened for user urkj
+session opened for user urmm
+session opened for user urjs1
+session opened for user urja
+session opened for user root
+Accepted password for
+Received disconnect from
+##############Ansible stuff follows
+ansible-command
+ansible-raw
+ansible-script
+ansible-shell
+ansible-acl
+ansible-assemble
+ansible-copy
+ansible-fetch
+ansible-file
+ansible-ini_file
+ansible-lineinfile
+ansible-replace
+ansible-stat
+ansible-synchronize
+ansible-template
+ansible-unarchive
+ansible-xattr
+ansible-apt
+ansible-apt_key
+ansible-apt_repository
+ansible-apt_rpm
+ansible-composer
+ansible-cpanm
+ansible-easy_install
+ansible-gem
+ansible-homebrew
+ansible-homebrew_cask
+ansible-homebrew_tap
+ansible-layman
+ansible-macports
+ansible-npm
+ansible-openbsd_pkg
+ansible-opkg
+ansible-pacman
+ansible-pip
+ansible-pkgin
+ansible-pkgng
+ansible-pkgutil
+ansible-portage
+ansible-portinstall
+ansible-redhat_subscription
+ansible-rhn_channel
+ansible-rhn_register
+ansible-rpm_key
+ansible-svr4pkg
+ansible-swdepot
+ansible-urpmi
+ansible-yum
+ansible-zypper
+ansible-zypper_repository
+ansible-alternatives
+ansible-at
+ansible-authorized_key
+ansible-capabilities
+ansible-cron
+ansible-debconf
+ansible-facter
+ansible-filesystem
+ansible-firewalld
+ansible-group
+ansible-hostname
+ansible-kernel_blacklist
+ansible-locale_gen
+ansible-lvg
+ansible-lvol
+ansible-modprobe
+ansible-mount
+ansible-ohai
+ansible-open_iscsi
+ansible-ping
+ansible-seboolean
+ansible-selinux
+ansible-service
+ansible-setup
+ansible-sysctl
+ansible-ufw
+ansible-user
+ansible-zfs
+ansible-accelerate
+ansible-assert
+ansible-debug
+ansible-fail
+ansible-fireball
+ansible-include_vars
+ansible-pause
+ansible-set_fact
+ansible-wait_for
+ansible-get_url
+ansible-slurp
+ansible-uri
+.ansible/tmp
+USER=root ; COMMAND=/bin/sh -c echo SUDO-SUCCESS-
+Will not restore a file with more than one hard link
+##############ntpd stuff follows
+0.0.0.0 c012 02 freq_set kernel 3.162 PPM
+0.0.0.0 c012 02 freq_set kernel 3.336 PPM
+0.0.0.0 c012 02 freq_set kernel 3.599 PPM
+0.0.0.0 c016 06 restart
+0.0.0.0 c01d 0d kern kernel time sync enabled
+0.0.0.0 c612 02 freq_set kernel -28.401 PPM
+0.0.0.0 c612 02 freq_set kernel 3.883 PPM
+0.0.0.0 c612 02 freq_set kernel 4.233 PPM
+0.0.0.0 c614 04 freq_mode
+0.0.0.0 c615 05 clock_sync
+0.0.0.0 c618 08 no_sys_peer
+0.0.0.0 c61c 0c clock_step +0.722003 s
+0.0.0.0 c61c 0c clock_step +0.723052 s
+0.0.0.0 c61c 0c clock_step +1.539589 s
+2620:17:4000:1::1:123 interface 2620:91:0:96:250:56ff:fe83:d8
+2620:17:4000:1::1:123 interface fe80::250:56ff:fe83:dc
+synchronized to 2600:3c03::19:d100, stratum 2
+Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Listen and drop on 1 v6wildcard :: UDP 123
+Listening on routing socket on fd #22 for interface updates
+Listening on routing socket on fd #23 for interface updates
+Listen normally on 2 lo 127.0.0.1 UDP 123
+Listen normally on 3 eth2 10.10.6.61 UDP 123
+Listen normally on 3 eth2 10.10.6.64 UDP 123
+Listen normally on 3 eth2 10.10.6.68 UDP 123
+Listen normally on 4 lo ::1 UDP 123
+Listen normally on 5 eth2 2620:91:0:96:250:56ff:fe83:d8 UDP 123
+Listen normally on 5 eth2 fe80::250:56ff:fe83:da UDP 123
+Listen normally on 5 eth2 fe80::250:56ff:fe83:dc UDP 123
+Listen normally on 6 eth2 2620:91:0:96::61 UDP 123
+Listen normally on 6 eth2 2620:91:0:96::64 UDP 123
+Listen normally on 6 eth2 fe80::250:56ff:fe83:d8 UDP 123
+Listen normally on 7 eth2 2620:91:0:96:250:56ff:fe83:da UDP 123
+Listen normally on 7 eth2 2620:91:0:96:250:56ff:fe83:dc UDP 123
+Listen normally on 7 eth2 2620:91:0:96::68 UDP 123
+Message forwarded from ldapc: xntpd
+new interface(s) found: waking up resolver
+ntpd 4.2.6p5@1.2349-o Mon Jul 15 09:22:49 UTC 2013 (1)
+ntpd exiting on signal 15
+ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+peers refreshed
+proto: precision = 0.058 usec
+proto: precision = 0.060 usec
+proto: precision = 0.064 usec
+synchronized to 2600:3c03::19:d100, stratum 2
+synchronized to 67.175.77.135, stratum 1
+##############Tomcat stuff follows
+session opened for user tomcat
+##############Asst admin stuff that gets logged
+yum[
+groupadd
+useradd[
+##############Asst test messages to ignore
+urew: TEST-cas3
+urew: TESTfromCFGbyERICW
+urew: TEST 
+TESTING
+##############Ignore all sendmail messages for now
+sendmail
+##############Ignore Postfix
+postfix/cleanup[
+postfix/local[
+postfix/pickup[
+postfix/qmgr[
+postfix/bounce[
+postfix/smtp
+postfix/error
+postfix/postsuper
+postfix/postqueue
+postfix/postfix-script
+postfix/master
+postfix/anvil
+postfix/scache
+##################Cyrus stuff
+archiving log file: /var/lib/imap/db
+about to exec /usr/lib/cyrus/bin/ctl_cyrusdb
+archiving database file: /var/lib/imap/annotations.db
+archiving database file:
+/var/lib/imap/mailboxes.db
+checkpointing cyrus databases
+done checkpointing cyrus databases
+about to exec /usr/lib/cyrus/bin
+##############Assorted rare lines
+Reloaded configuration
+SELinux is preventing the ifconfig from using
+LDAP connection error
+#004#006#015 
+#006#030#015 
+Audit daemon rotating log files
+urew: TEST3 
+ittss: TEST 
+Previous time adjustment didn't complete
+init: tty (/dev/tty1) main process ended, respawning
+QUIT#015 
+session opened for user shibd by
+TESTfromLDAPAbyERICW#015 
+#006#015 
+~]#015 
+The audit daemon is exiting.
+irqbalance: Balaincing is ineffective on systems with a single cache domain.  Shutting down
+TEST 
+/root/bin/sasl_watcher.sh
+##############Syslog-ng stuff
+syslog-ng starting up
+EOF occurred while idle
+Connection broken; time_reopen
+#############Webserver stuff
+Accepted publickey for omni from 10
+Accepted keyboard-interactive/pam for omni from 10
+rsync -r -v -a --delete -e ssh /data/www.marist/
+#############lxfdrwb2 kernel boot stuff
+kernel:        0000000000000000 0000000000000000
+0000000000000000 0000000000000000
+kernel: 0000000000000000 000000002f19b940 0000000000000002
+0000000000000000
+kernel:        000000000000000d 0000000000000000
+000000002f19b9a8 000000000000000e
+kernel: ([<0000000000105662>] show_trace+0xe6/0x134)
+kernel:  [<0000000000117d54>] sysc_return+0x0/0x8
+kernel:  [<00000000001bc506>] filemap_fault+0x41e/0x42c
+kernel:  [<00000000001be744>] oom_kill_process+0xe0/0x334
+kernel:  [<00000000001bf0a8>] __out_of_memory+0x78/0xf0
+kernel:  [<00000000001bf1b4>] out_of_memory+0x94/0x110
+kernel:  [<00000000001c4a7a>]
+__alloc_pages_nodemask+0x6e2/0x714
+kernel:  [<00000000001c6ffe>]
+__do_page_cache_readahead+0x10a/0x2ac
+kernel:  [<00000000001c71e0>] ra_submit+0x40/0x54
+kernel:  [<00000000001da118>] __do_fault+0x74/0x5b4
+kernel:  [<00000000001de92a>] handle_mm_fault+0x292/0x3e0
+kernel:  [<000000000044888a>] do_dat_exception+0x1e2/0x2cc
+kernel:        0000000000460cb0 0000000000105752
+000000002f19b940 000000002f19b988
+kernel:        000000002f19b9e0 000000002f19b958
+000000002f19b958 0000000000444fba
+kernel:  [<000002000096e77a>] 0x2000096e77a
+kernel: 1920 pages in swap cache
+kernel: 246333 pages non-shared
+kernel: 262144 pages RAM
+kernel: 27729 pages shared
+kernel: 6683 total pagecache pages
+kernel: 6812 pages reserved
+kernel: active_anon:118293 inactive_anon:118300
+isolated_anon:17
+kernel:  active_file:136 inactive_file:155 isolated_file:15
+kernel: Call Trace:
+kernel: CPU    0: hi:  186, btch:  31 usd:   0
+kernel: CPU: 0 Not tainted 2.6.32.49-0.3-default #1
+kernel: CPU    1: hi:  186, btch:  31 usd:  30
+kernel: DMA: 566*4kB 0*8kB 1*16kB 0*32kB 0*64kB 1*128kB
+0*256kB 1*512kB 1*1024kB = 3944kB
+kernel: DMA free:3944kB min:4064kB low:5080kB high:6096kB
+active_anon:473172kB inactive_anon:473200kB active_file:544kB
+inactive_file:620kB unevictable:4480kB isolated(anon):68kB isolated(file):60kB
+present:1034240kB mlocked:4480kB dirty:0kB writeback:1616kB mapped:17872kB
+shmem:14700kB slab_reclaimable:6240kB slab_unreclaimable:25820kB
+kernel_stack:3424kB pagetables:4948kB unstable:0kB bounce:0kB
+writeback_tmp:0kB pages_scanned:3870 all_unreclaimable? yes
+kernel: DMA per-cpu:
+kernel:  free:986 slab_reclaimable:1560
+slab_unreclaimable:6455
+kernel: Free swap  = 0kB
+kernel: httpd2-prefork cpuset=/ mems_allowed=0
+kernel: httpd2-prefork invoked oom-killer: gfp_mask=0x201da,
+order=0, oom_adj=0
+kernel: Killed process 26065 (htsearch)
+kernel: lowmem_reserve[]: 0 0 0
+kernel:  mapped:4468 shmem:3675 pagetables:1237 bounce:0
+kernel: Mem-Info:
+kernel: Out of memory: kill process 26065 (htsearch) score
+55341 or a child
+kernel: Process httpd2-prefork (pid: 25818, task:
+0000000005b30038, ksp: 000000002f19b7d0)
+kernel: Swap cache stats: add 18405803, delete 18403883, find
+1234411792/1236010633
+kernel: TCP: Peer
+0000:0000:0000:0000:0000:ffff:aeec:e217:15709/80 unexpectedly shrunk window
+1467208812:1467210188 (repaired)
+kernel: Total swap = 140108kB
+kernel:  unevictable:1120 dirty:0 writeback:404 unstable:0
+#############Other stuff
+log source = /proc/kmsg started.
+exited, status 0
+Log statistics; dropped=
+/data/www.marist/scripts/checkpoe/checkpoe.sh
+Accepted keyboard-interactive/pam for omni_fdr from 10.10.1.125
+#############ssh stuff
+Your account has expired; please see the system administrator
+error: Could not load host key: /etc/ssh/ssh_host_ecdsa_key
+Did not receive identification string
+Accepted keyboard-interactive/pam for
+session opened for user ittss
+Accepted publickey for omni
+CMD (rsync -r -v -a --delete -e
+#############RHEL Subscription stuff
+subscription-manager: Added subscription for product
+#############AIX Cruft we don't need
+ifconfig -a
+unix: The privilege command /bin/vmstat
+unix: The privilege command /usr/sbin/netstat
+#############Assorted Web alerts that are caught that we can (maybe) ignore
+ALERT - configured COOKIE variable limit exceeded
+ALERT - script tried to increase memory_limit
+ALERT - ASCII-NUL chars not allowed within request
+ALERT - configured request variable name length limit exceeded
+ALERT - COOKIE variable name begins with disallowed whitespace
+ALERT - configured request variable name length limit exceeded
+ALERT - configured COOKIE variable name length limit exceeded
+###############Ignore Johannes stuff
+USER=root ; COMMAND=/usr/bin/grep
+###############RHEL RHN registration 
+rhnsd[
+This system is registered to RHN
+running program /usr/sbin/rhn_check
+subscription-manager: Registered system with identity
+Added subscription for 'Red Hat Enterprise Linux 
+##############Unknown STUFF
+test -x /usr/bin/munin-cron
+##############Temporary zimbra blocks
+zimbra
+Zimbra
+Updated timestamp for job `cron.daily'
+root) CMD (run-parts /etc/cron.daily)
+/root/bin/dbdump.sh
+###############ldap imux
+imuxsock lost
+imuxsock begins to drop messages from
+################app23 stuff
+Sending an email...
+abrtd: Email was sent to: root@localhost
+abrtd: DUP_OF_DIR:
+abrtd: Dump directory is a duplicate of
+abrtd: Deleting dump directory 
+##############vcl stuff
+dhcpd: DHCPREQUEST
+dhcpd: DHCPACK
+dhcpd: DHCPINFORM
+dhcpd: DHCPDISCOVER from
+dhcpd: DHCPOFFER on
+: DHCPACK from 
+: DHCPREQUEST on 
+##############internetaccess
+Squid Parent: child process
+##############Netezza junk
+info: crmd_ipc_connection_destroy: Connection to CRMd was terminated
+info: determine_online_status: Node dn-netezza-1 is online
+info: determine_online_status: Node dn-netezza-2 is online
+info: handle_request: Current ping state: S_FINALIZE_JOIN
+info: handle_request: Current ping state: S_INTEGRATION
+info: Invoked: cibadmin -Q -o constraints 
+info: Invoked: cibadmin -Q -o resources 
+info: Invoked: /usr/sbin/crmadmin -S dn-netezza-1 
+info: Invoked: /usr/sbin/crmadmin -S dn-netezza-2 
+info: Invoked: /usr/sbin/crmadmin -S hc-netezza-1 
+info: Invoked: /usr/sbin/crmadmin -S hc-netezza-2 
+info: Invoked: /usr/sbin/crm_resource -r nps -g target_role 
+info: main: =#=#=#=#= Getting XML =#=#=#=#=
+info: main: Reading XML from: live cluster
+info: set_default_graph_functions: Setting default graph functions
+info: validate_crm_message: Expecting a (response) message but received a (request).
+info: validate_crm_message: No sub-system defined.
+notice: main: Required feature set: 1.1
+not reach isodx.netezza.com or running in offline mode
+request from 10.10.6.102 failed.
+request from 10.10.6.112 failed.
+debug: debug2:
+debug: debug3:
+info: cib_stats: Processed
+info: cl_malloc stats
+info: Daily informational
+info: MSG stats
+info: RealMalloc
+info: G_SIG_dispatch:
+WARN: G_SIG_dispatch:
+info: update_dc: Set DC to
+info: do_dc_join_offer_all:
+WARN: do_dc_join_finalize:
+info: do_state_transition: 
+notice: StopRsc:   hc-netezza
+ERROR: write_xml_file: bzWriteClose
+notice: NoRoleChange: Leave resource
+WARN: native_color: Resource fencing_route
+WARN: cib_peer_callback: Discarding
+WARN: register_fsa_input_adv:
+WARN: determine_online_status:
+WARN: unpack_rsc_op:
+info: determine_online_status: Node hc-netezza
+info: group_print: Resource Group: nps
+info: native_print:
+WARN: stage6: Scheduling Node hc-netezza
+info: unpack_graph: Unpacked transition
+info: te_fence_node: Executing reboot
+info: client tengine
+WARN: custom_action: 
+notice: StartRsc:  hc-netezza
+notice: RecurringOp: hc-netezza
+notice: NoRoleChange: Move  resource
+info: native_stop_constraints
+notice: cluster_option:
+build_operation_update: Digest
+#011ha_state=active, ccm_state=false, crm_state=online, join_state=down,
+expected=member
+Abort action 0 superceeded by 2
+Abort priority upgraded to 1000000
+call=-224826, optype=1, node_name=hc-netezza-2, result=2, node_list=,
+action=28:224360:896f0049-b39b-4dda-8f5f-5ea458b8ee54
+call=-224827, optype=1, node_name=hc-netezza-2, result=2, node_list=,
+action=28:224361:896f0049-b39b-4dda-8f5f-5ea458b8ee54
+call=-225402, optype=1, node_name=hc-netezza-1, result=2, node_list=,
+action=28:224934:fa6c6c01-0898-4361-9a21-3540a2cd2ee3
+call=-225403, optype=1, node_name=hc-netezza-1, result=2, node_list=,
+action=28:224935:fa6c6c01-0898-4361-9a21-3540a2cd2ee3
+(Complete=1, Pending=0, Fired=0, Skipped=0, Incomplete=0)
+(Complete=2, Pending=0, Fired=0, Skipped=24, Incomplete=0)
+Configuration WARNINGs found during PE processing.  Please run "crm_verify -L"
+to identify issues.
+digest:source <parameters/>
+digest:source <parameters 1="r0"/>
+digest:source <parameters 1="r1"/>
+digest:source <parameters community="private" ipaddr="10.0.128.31"
+port="161"/>
+digest:source <parameters directory="/export/home" fstype="ext3"
+device="/dev/drbd0"/>
+digest:source <parameters directory="/nz" fstype="ext3" device="/dev/drbd1"/>
+digest:source <parameters ip="10.0.0.1" netmask="20" nic="eth2"/>
+digest:source <parameters ip="10.10.6.110" netmask="24" nic="bond2"/>
+flush message from hc-netezza-1
+flush message from hc-netezza-2
+ignoring join
+local_started_stonith_rsc == NULL
+Node hc-netezza-1 (afbac085-b497-4c34-ac61-a3b27ea16a22) is un-expectedly down
+Node hc-netezza-2 (df81c1a9-73b4-4ed8-83b5-058431e92705) is un-expectedly down
+optype=RESET, op_result=TIMEOUT
+pingd
+pingd=100
+Pseudo action 26 fired and confirmed
+require others to stonith node hc-netezza
+Sending full refresh
+Stonith of hc-netezza-1 failed (2)... aborting transition.
+Stonith of hc-netezza-2 failed (2)... aborting transition.
+PWD=/nz/kit.7.0.4.4/log/sysmgr
+COMMAND=/nz/kit.7.0.4.4/share/nzhealthcheck/bin
+info: Current arena value
+Syncing CIB to all peers
+Updating node state to member for
+/var/lib/heartbeat/pengine/pe-warn
+info: tengine_stonith_callback
+info: run_graph
+First NZ_status from 10.0.128.31 returned 0.
+Second NZ_status from 10.0.128.131 returned 0.
+TRYIng to status 10.0.128.131.
+Trying to status 10.0.128.31.
+NZ_status: started on 10.0.128.131.
+NZ_status: started on 10.0.128.31.
+info: These are nothing to worry about
+ERROR: do_dc_join_filter_offer
+WARN: do_log: [[FSA]] Input I_PE_SUCCESS from
+ERROR: do_dc_join_filter_offer:
+ERROR: do_log: [[FSA]] Input
+do_log: [[FSA]] Input I_INTEGRATED from
+###################Jobsub server
+(root) BEGIN EDIT
+(root) END EDIT 
+(root) REPLACE
+(root) CMD (/root/gurjobs_check_PROD11G.shl
+################Misc stuff again
+/usr/bin/java -jar /usr/local/bin/sis.jar cm
+CMD (/root/bin/log_usage.sh)
+CMD (/usr/local/ezproxy
+session opened for user xymon
+Program rhsmcertd-worke tried to access
+readahead-collector: sorting
+readahead-collector: finished
+saved core dump of pid
+abrtd: Directory 'ccpp
+finished clocksync.sh
+MySQL Dump: INFO: Database dump for
+MySQL DUMP START
+CMD (/ldapLogRotate 1>/ldapLogRotate.out 2>/ldapLogRotate.out)
+abrt daemon is not running. If it crashed, 
+CMD (/home/eprint/code/du.pl&)
+CMD (/home/eprint/updates/smarteprint.pl >& /dev/null)
+CMD (run-parts /etc/cron.clocksync)
+CMD (/usr/local/bin/delta.sh >> /var/log/sis_delta.log)
+CMD (/bin/mountpoint -q /opt/DR-remoteSite || /bin/mount -t nfs 148.100.241.23:/opt/DR-remoteSite /opt/DR-remoteSite)
+CMD (/bin/mountpoint -q /opt/DR-secondarySite || /bin/mount -t nfs 10.10.6.91:/opt/DR-secondarySite /opt/DR-secondarySite)
+CMD (run-parts /etc/cron.hourly > /dev/null 2>&1)
+vcl.is.marist.edu crond: (root) CMD (run-parts /etc/cron.hourly > /dev/null 2>&1)
+CMD (/usr/lib64/sa/sa1 -S DISK 1 1)
+CMD (/usr/local/bin/deltaGO.sh )
+CMD (/usr/bin/java -jar /opt/sis/sis.jar >> /var/log/sis.log)
+CMD (python /usr/share/rhn/virtualization/poller.py)
+######################TSMServer
+bound to 169.254.95.120
+init: /etc/init.conf: Unable to load configuration:
+init: db2fmcd main process ended,
+######################## login-seminarian
+BIOS-e820: 000000001fef0000 -
+BIOS-e820: 000000001feff000 -
+BIOS-e820: 000000001ff00000 -
+RAMDISK: 1ef58000 - 1fedf7b3
+(6 early reservations) ==> bootmem
+Normal   0x00100000 -> 0x00100000
+early_node_map[3] active PFN ranges
+SMP: Allowing 2 CPUs, 0 hotplug CPUs
+NR_CPUS:4096 nr_cpumask_bits:2
+pcpu-alloc: s94552 r8192 d24232
+Memory: 482456k/524288k available
+NR_IRQS:33024 nr_irqs:424
+allocated 2097152 bytes of
+Booting Node   0, Processors  #1 Ok.
+Skipped synchronization checks as TSC
+HEST: Table not found.
+type=2000 audit(1413993546.732:1):
+ERST: Table is not found!
+readahead-collector: starting
+microcode: CPU1 sig=0x206c2, pf=0x1,
+readahead-disable-service: delaying
+ntpd 4.2.4p8@1.1612-o Thu Jan 10
+precision = 0.064 usec
+Listening on interface #0
+Listening on interface #1
+Listening on interface #2 eth2,
+Listening on interface #3 lo,
+Listening on interface #4 lo,
+Listening on interface #5 eth2,
+kernel time sync status 2040
+frequency initialized 10.451 PPM
+############################# IBM cruft
+/src/bos/usr/ios/lpm/accessProcess
+src/bos/usr/ios/lpm/accessProcess/ApMain
+accessprocess
+The privilege command /usr/bin/vmstat
+receive a SERVICE REQUEST message from
+SELECT call with timeout
+src/bos/usr/ios/lpm/common/
+bdb_inequality_candidates: (modifyTimestamp) not
+receive a SERVICE REGISTRATION message from 127.0.0.1.
+srv_reg_local returns with slp code = 0. make an ack to remote=127.0.0.1.
+libslp : udp_service_listener
+libslp : send_rcv_udp -- start.
+libslp : send_rcv_udp -- stop
+libslp : srv_reg_one -- start.
+libslp : srv_reg_one -- stop
+libslp : srv_reg --
+prepare_srv_reg returns with slp code = 0.
+libslp : srv_reg -- start.
+libslp : srv_reg -- stop (rc =
+libslp : udp_service_listener
+select call with timeout = 2000 ms.
+receive a SERVICE REGISTRATION message from 148.100.49.12.
+__srv_reg_local returns with slp code = 0. make an ack to
+Message SERVICE REGISTRATION succefully computed.
+receive a DA ADVERTISEMENT message from 10.128.147.182.
+receive a DA ADVERTISEMENT message from 10.128.145.110.
+Message DA ADVERTISEMENT succefully computed.
+Message SERVICE REQUEST succefully computed.
+reply to send to this service request.
+lpmutil
+lssyscfg
+lipslp
+libslp
+srv_reg_local -- registration updated
+Accepted publickey for root from 148.100.49.139 
+SFW2-INext-DROP-DEFLT
+martian source
+ ll header: ff:ff
+New configuration initialized
+/usr/bin/find
+SFW2-INext-ACC-TCP
+su: from root to
+nss_getpwnam: name 'tsminst1' not found in domain
+The privilege command /usr/bin/rm_mlcache_file
+Raw_Proxy(): IMAP_Read() failed reading from IMAP server
+Expiring server sd
+Calloc call failed. errno =
+Malloc call failed. errno =
+##############VIOs for pureflex
+The system call does not exist on this system.
+SelectServiceableEvent.UpdateResourceThread() sleeping
+IPChangeHelperThread
+caa_query.c#011
+Advanced Accounting daemon started
+Using syslog() for reporting
+Advanced Accounting daemon terminated
+##############Foxmail stuff
+IMAP_Line_Read(): connection closed prematurely.
+Raw_Proxy(): Failed to read line from client on socket
+IMAP toolkit crash: Lock when already locked
+##############Mooc-proxy
+callbacks suppressed
+TCP: time wait bucket table overflow
+###########webcheckout stuff
+START Batch Job Convert overdue invoices to holds.
+END Batch Job Remove finite offline schedules reservations.
+END Batch Job See if there are any long running IDLE transactions
+START Batch Job Remove finite offline schedules reservations.
+END Batch Job Send a heartbeat to onShoreD central control.
+START Batch Job Send a heartbeat to onShoreD central control.
+START Batch Job Pickup autocirculating allocations.
+START Batch Job Return autocirculating allocations.
+END Batch Job Send automated reminder mail to patrons.
+START Batch Job Send automated reminder mail to patrons. 
+##########Voyager stuff
+Error parsing attribute server - DISABLING SERVICE
+EXIT: maristdb_Prptsvr
+Must specify a server in maristdb_Pmediasvr 
+Must specify a server in maristdb_Pmhs_msg 
+Must specify a server in maristdb_Pncipsvr 
+Must specify a server in maristdb_Pscansvr 
+Must specify a server in maristdb_Pselfchk 
+Must specify a server in traindb_Tmediasvr 
+Must specify a server in traindb_Tmhs_msg 
+Must specify a server in traindb_Tncipsvr 
+Must specify a server in traindb_Tscansvr 
+Must specify a server in traindb_Tselfchk 
+readjusting service maristdb_Pcallslipsvr 
+readjusting service maristdb_Pfilesvr 
+readjusting service maristdb_Prptsvr 
+readjusting service maristdb_Psysadminsvr 
+readjusting service traindb_Tacqsvr 
+readjusting service traindb_Tcallslipsvr 
+readjusting service traindb_Tcatsvr 
+readjusting service traindb_Tcircsvr 
+readjusting service traindb_Tfilesvr 
+readjusting service traindb_Tkeysvr 
+readjusting service traindb_Tmfhdkeysvr 
+readjusting service traindb_Topacsvr 
+readjusting service traindb_Trptsvr 
+readjusting service traindb_Tsysadminsvr 
+Reconfigured: new=0 old=20 dropped=0 (services) 
+removing chargen 
+removing daytime 
+removing discard 
+removing echo 
+removing rsync 
+removing tcpmux 
+removing time 
+Server /m1/voyager/maristdb/sbin/Pmediasvr is not executable
+Server /m1/voyager/maristdb/sbin/Pmhs_msg is not executable
+Server /m1/voyager/maristdb/sbin/Pncipsvr is not executable
+Server /m1/voyager/maristdb/sbin/Pscansvr is not executable
+Server /m1/voyager/maristdb/sbin/Pselfchk is not executable
+Server /m1/voyager/traindb/sbin/Tmediasvr is not executable
+Server /m1/voyager/traindb/sbin/Tmhs_msg is not executable
+Server /m1/voyager/traindb/sbin/Tncipsvr is not executable
+Server /m1/voyager/traindb/sbin/Tscansvr is not executable
+Server /m1/voyager/traindb/sbin/Tselfchk is not executable
+Starting reconfiguration 
+START: maristdb_Prptsvr
+START: traindb_Tkeysvr
+START: traindb_Topacsvr
+Swapping defaults 

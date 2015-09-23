@@ -1,0 +1,8 @@
+This email came from syslog.it.marist.edu
+It is scanning /data/rsyslog/messages and alerts every 100
+times it sees an "Invalid user" line in the file and
+will wait 60 minutes before sending another alert.
+
+This program sends email between 6:00 and 18:00
+This program is restarted by logwatch so a carefully timed
+attack may not send a notification email.

@@ -1,0 +1,15 @@
+ntpd.*kernel\ time\ sync\ status
+ntpd.*Listening\ on\ interface
+ntpd.*frequency\ initialized\ 
+ntpd.*kernel\ time\ sync\ status
+ntpd.*precision\ =\ 1.000
+ntpd.*ntpd\ 4.2.4p8@1.1612-o\ Tue\ Dec\ 20\ 21:34:45
+sshd.*Server\ listening\ on
+sshd.*Received\ signal\ 15
+auditd.*Init\ complete
+auditd.*Started\ dispatcher
+kernel..Killed.process.*htsearch
+ldap slapd.* conn=
+netezza.*debug
+foxmail.marist.edu in.imapproxyd..*LOGIN
+foxmail.marist.edu in.imapproxyd..*LOGOUT
