@@ -38,38 +38,38 @@ Installation
 Installation is manual at the moment.
 
 Please run 
-	cpan File::Tail
+  cpan File::Tail
 
 Add this line to rc.local (or whatever is appropriate for your site)
-	/data/rsyslog/live_scan_for_invalid_user.pl  &
+  /data/rsyslog/live_scan_for_invalid_user.pl  &
 
 Edit /etc/logrotate.d/syslog so it is similar to below
-	/data/rsyslog/*/syslog.log
-	/data/rsyslog/messages
-	{
-	    rotate 9000
-	    daily
-	    sharedscripts
-	    compress
-	    delaycompress
-	    prerotate
-		/usr/sbin/logwatch
-		kill `ps -ef |grep -v grep |grep live_scan_for_invalid_user |awk '{print $2}'`
-		/usr/sbin/logwatch --print > /data/rsyslog/logwatch.out
-		cp /data/rsyslog/logwatch.out /data/rsyslog/logwatch.out-`date +%Y%m%d`
-	        /data/rsyslog/analyze-syslog.sh > /data/rsyslog/analyze.out
-		cp /data/rsyslog/analyze.out /data/rsyslog/analyze.out-`date +%Y%m%d`
-		cat /data/rsyslog/analyze.out | mailx -s "Syslog output" adminteam@example.com
-		cat /data/rsyslog/logwatch.out | mailx -s "Logwatch output" adminteam@example.com
-		chown root.apache /data/rsyslog/logwatch.out /data/rsyslog/logwatch.out-`date +%Y%m%d`
-		chmod g+r /data/rsyslog/logwatch.out /data/rsyslog/logwatch.out-`date +%Y%m%d`
-		chown root.apache /data/rsyslog/analyze.out /data/rsyslog/analyze.out-`date +%Y%m%d`
-		chmod g+r  /data/rsyslog/analyze.out /data/rsyslog/analyze.out-`date +%Y%m%d`
-	    endscript
-	    postrotate
-		/bin/kill -HUP `cat /var/run/syslogd.pid 2> /dev/null` 2> /dev/null || true
-		/data/rsyslog/live_scan_for_invalid_user.pl  &
-	
-	    endscript
-	}
-	
+  /data/rsyslog/*/syslog.log
+  /data/rsyslog/messages
+  {
+      rotate 9000
+      daily
+      sharedscripts
+      compress
+      delaycompress
+      prerotate
+    /usr/sbin/logwatch
+    kill `ps -ef |grep -v grep |grep live_scan_for_invalid_user |awk '{print $2}'`
+    /usr/sbin/logwatch --print > /data/rsyslog/logwatch.out
+    cp /data/rsyslog/logwatch.out /data/rsyslog/logwatch.out-`date +%Y%m%d`
+          /data/rsyslog/analyze-syslog.sh > /data/rsyslog/analyze.out
+    cp /data/rsyslog/analyze.out /data/rsyslog/analyze.out-`date +%Y%m%d`
+    cat /data/rsyslog/analyze.out | mailx -s "Syslog output" adminteam@example.com
+    cat /data/rsyslog/logwatch.out | mailx -s "Logwatch output" adminteam@example.com
+    chown root.apache /data/rsyslog/logwatch.out /data/rsyslog/logwatch.out-`date +%Y%m%d`
+    chmod g+r /data/rsyslog/logwatch.out /data/rsyslog/logwatch.out-`date +%Y%m%d`
+    chown root.apache /data/rsyslog/analyze.out /data/rsyslog/analyze.out-`date +%Y%m%d`
+    chmod g+r  /data/rsyslog/analyze.out /data/rsyslog/analyze.out-`date +%Y%m%d`
+      endscript
+      postrotate
+    /bin/kill -HUP `cat /var/run/syslogd.pid 2> /dev/null` 2> /dev/null || true
+    /data/rsyslog/live_scan_for_invalid_user.pl  &
+  
+      endscript
+  }
+  
