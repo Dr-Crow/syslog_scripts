@@ -47,6 +47,7 @@ Add this line to rc.local (or whatever is appropriate for your site)
 
 Edit /etc/logrotate.d/syslog so it is similar to below
 
+```
   /data/rsyslog/*/syslog.log
   /data/rsyslog/messages
   {
@@ -75,4 +76,4 @@ Edit /etc/logrotate.d/syslog so it is similar to below
   
       endscript
   }
-  
+``` 
