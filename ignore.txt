@@ -6,18 +6,15 @@ Send automated reminder mail to patrons
 systemd: Starting Cleanup of Temporary Directories
 imic CRON
 tsmdisaster NetworkManager
-nessus.it.marist.edu
 10.10.1.78
 mounted filesystem with ordered data mode. Opts
 pam_limits(crond:session)
 hard#011nofile#0114096
-failed login attempt for UNKNOWN_USER from dn-pf-fsm.it.marist.edu
 warning: database /etc/postfix/transport.db is older than source file 
 failed to bind to LDAP server ldap://127.0.0.1/
 powergoldenrhel nslcd
 AIXGoldenEricw: syslog: slp_srvreg : All of 3 tries to launch the SLP 
 /packaging/scripts/create-svn-repositories
-maps to cms.it.marist.edu
 u01/app/sghe/banner/inb/
 Reading included configuration file
 Setting latency timer of device
@@ -28,43 +25,6 @@ kernel: Nosave address range
 /home/urbg/netstatcheck
 php -f cron.php
 GURJOBS_CHECK_CNRPROD.log
-(voyager) CMD (/m1/voyager/maristdb/sbin/ambk-send.scr 
-(voyager) CMD (/m1/voyager/maristdb/sbin/ebc-send.scr 
-(voyager) CMD (/m1/home/voyager/summon-updates.scr 
-(voyager) CMD (/m1/home/voyager/summon-upd-send.scr 
-(voyager) CMD (/m1/home/voyager/summon-deltest.scr 
-(voyager) CMD (/m1/home/voyager/summon-del-send.scr 
-(oracle) CMD (. /home/oracle/.profile ; /m1/utility/dp_backup.pl /m1/incoming/dbe > /m1/incoming/db_dump.log 2>&1 )
-(root) CMD (/usr/sbin/logrotate -f /etc/logrotate.d/psacct)
-(root) CMD (/etc/init.d/psacct restart)
-(voyager) CMD (/m1/voyager/maristdb/sbin/Pcircjob -j1 
-(voyager) CMD (/m1/home/voyager/holdrun 
-(voyager) CMD (/m1/voyager/maristdb/sbin/Pcircjob -j2 
-(voyager) CMD (/m1/home/voyager/backlogtome 
-(voyager) CMD (/m1/voyager/maristdb/sbin/newBooks.pl 
-(voyager) CMD (/m1/voyager/traindb/sbin/Pcircjob -j1 
-(voyager) CMD (/m1/voyager/traindb/sbin/Pcircjob -j24 
-(voyager) CMD (/m1/voyager/maristdb/sbin/Pcircjob -j24 
-(voyager) CMD (/m1/voyager/traindb/sbin/Pcircjob -j2 
-(voyager) CMD (/m1/voyager/maristdb/sbin/mid-send.scr 
-maristdb_Pacqsvr status=0 
-maristdb_Pcatsvr status=0 
-maristdb_Pcircsvr status=0 
-maristdb_Pkeysvr status=0 
-maristdb_Pmfhdkeysvr status=0 
-maristdb_Popacsvr status=0 
-traindb_Tkeysvr status=0 
-traindb_Topacsvr status=0 
-maristdb_Pacqsvr 
-maristdb_Pcatsvr 
-maristdb_Pcircsvr 
-maristdb_Pkeysvr 
-maristdb_Pmfhdkeysvr 
-maristdb_Popacsvr 
-END Batch Job Cancel expired reservations.
-END Batch Job Convert overdue invoices to holds.
-END Batch Job Delete expired request log entries.
-END Batch Job Disable expired patron holds.
 END Batch Job Disable expired patrons.
 END Batch Job Email errors.
 END Batch Job Expire import sessions.
@@ -82,7 +42,6 @@ START Batch Job Expire sessions.
 START Batch Job Expire uncommitted allocations.
 START Batch Job See if there are any long running IDLE transactions
 (root) CMD (/usr/local/sbin/recycle_fucking_devmon.sh)
-Address 148.100.100.4
 nss_getpwnam: name 'nobody' does not map into domain
 (eprint) CMD ($HOME/code/
 su: (to nobody) root on none
@@ -921,7 +880,6 @@ Connection broken; time_reopen
 #############Webserver stuff
 Accepted publickey for omni from 10
 Accepted keyboard-interactive/pam for omni from 10
-rsync -r -v -a --delete -e ssh /data/www.marist/
 #############lxfdrwb2 kernel boot stuff
 kernel:        0000000000000000 0000000000000000
 0000000000000000 0000000000000000
@@ -996,7 +954,6 @@ kernel:  unevictable:1120 dirty:0 writeback:404 unstable:0
 log source = /proc/kmsg started.
 exited, status 0
 Log statistics; dropped=
-/data/www.marist/scripts/checkpoe/checkpoe.sh
 Accepted keyboard-interactive/pam for omni_fdr from 10.10.1.125
 #############ssh stuff
 Your account has expired; please see the system administrator
@@ -1199,7 +1156,6 @@ CMD (/usr/local/bin/delta.sh >> /var/log/sis_delta.log)
 CMD (/bin/mountpoint -q /opt/DR-remoteSite || /bin/mount -t nfs 148.100.241.23:/opt/DR-remoteSite /opt/DR-remoteSite)
 CMD (/bin/mountpoint -q /opt/DR-secondarySite || /bin/mount -t nfs 10.10.6.91:/opt/DR-secondarySite /opt/DR-secondarySite)
 CMD (run-parts /etc/cron.hourly > /dev/null 2>&1)
-vcl.is.marist.edu crond: (root) CMD (run-parts /etc/cron.hourly > /dev/null 2>&1)
 CMD (/usr/lib64/sa/sa1 -S DISK 1 1)
 CMD (/usr/local/bin/deltaGO.sh )
 CMD (/usr/bin/java -jar /opt/sis/sis.jar >> /var/log/sis.log)
@@ -1317,21 +1273,6 @@ END Batch Job Send automated reminder mail to patrons.
 START Batch Job Send automated reminder mail to patrons. 
 ##########Voyager stuff
 Error parsing attribute server - DISABLING SERVICE
-EXIT: maristdb_Prptsvr
-Must specify a server in maristdb_Pmediasvr 
-Must specify a server in maristdb_Pmhs_msg 
-Must specify a server in maristdb_Pncipsvr 
-Must specify a server in maristdb_Pscansvr 
-Must specify a server in maristdb_Pselfchk 
-Must specify a server in traindb_Tmediasvr 
-Must specify a server in traindb_Tmhs_msg 
-Must specify a server in traindb_Tncipsvr 
-Must specify a server in traindb_Tscansvr 
-Must specify a server in traindb_Tselfchk 
-readjusting service maristdb_Pcallslipsvr 
-readjusting service maristdb_Pfilesvr 
-readjusting service maristdb_Prptsvr 
-readjusting service maristdb_Psysadminsvr 
 readjusting service traindb_Tacqsvr 
 readjusting service traindb_Tcallslipsvr 
 readjusting service traindb_Tcatsvr 
@@ -1350,18 +1291,6 @@ removing echo
 removing rsync 
 removing tcpmux 
 removing time 
-Server /m1/voyager/maristdb/sbin/Pmediasvr is not executable
-Server /m1/voyager/maristdb/sbin/Pmhs_msg is not executable
-Server /m1/voyager/maristdb/sbin/Pncipsvr is not executable
-Server /m1/voyager/maristdb/sbin/Pscansvr is not executable
-Server /m1/voyager/maristdb/sbin/Pselfchk is not executable
-Server /m1/voyager/traindb/sbin/Tmediasvr is not executable
-Server /m1/voyager/traindb/sbin/Tmhs_msg is not executable
-Server /m1/voyager/traindb/sbin/Tncipsvr is not executable
-Server /m1/voyager/traindb/sbin/Tscansvr is not executable
-Server /m1/voyager/traindb/sbin/Tselfchk is not executable
-Starting reconfiguration 
-START: maristdb_Prptsvr
 START: traindb_Tkeysvr
 START: traindb_Topacsvr
 Swapping defaults 
