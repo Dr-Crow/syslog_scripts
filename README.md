@@ -38,12 +38,15 @@ Installation
 Installation is manual at the moment.
 
 Please run 
+
   cpan File::Tail
 
 Add this line to rc.local (or whatever is appropriate for your site)
+
   /data/rsyslog/live_scan_for_invalid_user.pl  &
 
 Edit /etc/logrotate.d/syslog so it is similar to below
+
   /data/rsyslog/*/syslog.log
   /data/rsyslog/messages
   {
