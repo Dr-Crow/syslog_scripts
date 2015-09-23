@@ -1,0 +1,132 @@
+This file is from /data/rsyslog/analyze-syslog.sh which is probably 
+being run from syslog.example.com:/etc/logrotate.d/rsyslog
+
+#######################################################################
+Information about syslog files
+
+Number of syslog files larger than one byte: 203
+
+Hosts with 0 length syslog.log files
+
+Hosts without DNS reverse lookup
+10.13.8.205
+10.10.6.198
+
+Approximate Number of gigs of email sent by HOSTNAME: 32
+Approximate Number of gigs of email sent by HOSTNAME2: 41
+
+
+#######################################################################
+General errors, excluding bootp, ssh, unix_chkpwd, su, and sudo (No lines is good).
+
+  Count Line
+      1 rhelbase ntpd[1651]: ntpd 4.2.6p5@1.2349-o Tue Apr 28 10:15:27 UTC 2015 (1) 
+      1 rhelbase ntpd[1652]: 0.0.0.0 c012 02 freq_set kernel -2.284 PPM 
+      1 rhelbase ntpd[1652]: 0.0.0.0 c61c 0c clock_step +18235.806899 s 
+      1 rhelbase ntpd[1652]: Listen normally on 3 eth2 10.10.6.209 UDP 123 
+      1 rhelbase ntpd[1652]: Listen normally on 4 eth2 2620:91:0:96:250:56ff:fe91:5779 UDP 123 
+      1 rhelbase ntpd[1652]: Listen normally on 5 eth2 fe80::250:56ff:fe91:5779 UDP 123 
+      1 rhelbase ntpd[1652]: Listen normally on 6 lo ::1 UDP 123 
+      1 rhelbase ntpd[1652]: proto: precision = 0.059 usec 
+      1 rhelbase ntpd[1776]: ntpd 4.2.6p5@1.2349-o Tue Apr 28 10:15:27 UTC 2015 (1) 
+      1 rhelbase ntpd[1777]: 0.0.0.0 c012 02 freq_set kernel -2.284 PPM 
+      1 rhelbase ntpd[1777]: 0.0.0.0 c61c 0c clock_step -0.176315 s 
+      1 rhelbase ntpd[1777]: Listen normally on 3 eth2 10.10.6.209 UDP 123 
+      1 rhelbase ntpd[1777]: Listen normally on 4 eth2 2620:91:0:96:250:56ff:fe91:5779 UDP 123 
+      1 rhelbase ntpd[1777]: Listen normally on 5 eth2 fe80::250:56ff:fe91:5779 UDP 123 
+      1 rhelbase ntpd[1777]: Listen normally on 6 lo ::1 UDP 123 
+      1 rhelbase ntpd[2633]: ntpd 4.2.6p5@1.2349-o Tue Apr 28 10:15:27 UTC 2015 (1) 
+      1 rhelbase ntpd[2634]: 0.0.0.0 c012 02 freq_set kernel -9.228 PPM 
+      1 rhelbase ntpd[2634]: Listen normally on 3 eth2 10.10.6.209 UDP 123 
+      1 rhelbase ntpd[2634]: Listen normally on 5 eth2 2620:91:0:96:250:56ff:fe91:ae14 UDP 123 
+      1 rhelbase ntpd[2634]: Listen normally on 6 eth2 fe80::250:56ff:fe91:ae14 UDP 123 
+      1 rhelbase ntpd[2634]: proto: precision = 0.047 usec 
+      1 rhelbase ntpd[2697]: ntpd 4.2.6p5@1.2349-o Tue Apr 28 10:15:27 UTC 2015 (1) 
+      1 rhelbase ntpd[2698]: 0.0.0.0 c012 02 freq_set kernel -9.228 PPM 
+      1 rhelbase ntpd[2698]: Listen normally on 3 eth2 10.10.6.209 UDP 123 
+      1 rhelbase ntpd[2698]: Listen normally on 4 eth2 2620:91:0:96:250:56ff:fe91:5779 UDP 123 
+      1 rhelbase ntpd[2698]: Listen normally on 5 eth2 fe80::250:56ff:fe91:5779 UDP 123 
+      1 rhelbase ntpd[2698]: Listen normally on 6 lo ::1 UDP 123 
+      1 rhelbase ntpd_intres[1357]: DNS 0.rhel.pool.ntp.org -> 129.6.15.29 
+      1 rhelbase ntpd_intres[1357]: DNS 1.rhel.pool.ntp.org -> 50.116.55.65 
+      1 rhelbase ntpd_intres[1357]: DNS 2.rhel.pool.ntp.org -> 2604:a880:800:10::99:7004 
+      1 rhelbase ntpd_intres[1357]: DNS 3.rhel.pool.ntp.org -> 142.54.181.202 
+      1 rhelbase postfix/postdrop[29109]: warning: uid=0: File too large 
+      2 rhelbase kernel: sr 2:0:0:0: Attached scsi generic sg1 type 5 
+      2 rhelbase kernel: vmci 0000:00:07.7: PCI INT A -> GSI 16 (level, low) -> IRQ 16 
+      2 rhelbase kernel: VMCI: Major device number is: 248 
+      2 rhelbase kernel: vmci module is older than RHEL 6.2 ... applying fixups 
+      2 rhelbase kernel: VMCIUtil: Host capability check: PASSED 
+      2 rhelbase kernel: VMware vmxnet3 virtual NIC driver - version 1.1.30.0-k-NAPI 
+      2 rhelbase kernel: vmxnet3 0000:03:00.0: eth0: NIC Link is Up 10000 Mbps 
+      2 rhelbase kernel: vmxnet3 0000:03:00.0: eth2: intr type 3, mode 0, 3 vectors allocated 
+      2 rhelbase kernel: vmxnet3 0000:03:00.0: eth2: NIC Link is Up 10000 Mbps 
+      2 rhelbase kernel: vmxnet3 0000:03:00.0: irq 56 for MSI/MSI-X 
+      2 rhelbase kernel: vmxnet3 0000:03:00.0: irq 57 for MSI/MSI-X 
+      2 rhelbase kernel: vmxnet3 0000:03:00.0: irq 58 for MSI/MSI-X 
+      2 rhelbase kernel: vmxnet3 0000:03:00.0: # of Tx queues : 2, # of Rx queues : 2 
+      2 rhelbase kernel: vmxnet3 0000:03:00.0: PCI INT A -> GSI 18 (level, low) -> IRQ 18 
+      2 rhelbase kernel: vmxnet3 0000:03:00.0: setting latency timer to 64 
+      2 rhelbase kernel: vsock module is older than RHEL 6.2 ... applying fixups 
+      2 rhelbase login: ROOT LOGIN ON tty1 
+
+#######################################################################
+configured GET variable value length limit exceeded errors (No lines is good).
+
+45
+
+#######################################################################
+Sudo Stuff
+
+  Count Line
+      1 imic sudo:     USER : TTY=pts/4 ; PWD=/home/XXXX ; USER=root ; COMMAND=/bin/su 
+      1 inb1.example.com sudo: pam_unix(sudo:auth): authentication failure; logname=USER uid=0 euid=0 tty
+=/dev/pts/0 ruser= rhost=  user=XXXX 
+      1 inb1.example.com sudo:     USER : TTY=pts/0 ; PWD=/home/USER ; USER=root ; COMMAND=/bin/su - 
+
+#######################################################################
+ssh Stuff(Probably less interesting
+
+Count of POSSIBLE BREAK-IN ATTEMPT messages
+362
+
+Count of Failed password for root from messages
+1
+
+Count of failed login attempt for root messages(MIGHT be the same as above)
+0
+
+Count of sshd Invalid user and Failed password messages
+12
+
+Count of refused connect from messages
+4224
+
+Count of Accepted publickey for messages (Probably ok unless it's a huge number
+321
+
+Count of warning: can't verify hostname messages
+784
+
+Other ssh events
+  Count Line
+      1 cas3 sshd[26791]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rho
+st=10.6.16.246  user=username
+      1 inb1.myhostname.example.com sshd[1078]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 t
+ty=ssh ruser= rhost=10.64.243.15  user=USER 
+      1 Message forwarded from myhostname: syslog: ssh: failed login attempt for uusername from 148.100.131.234 
+      1 Message forwarded from myhostname: sshd[12386490]: error: accept: A connection is ended by software. 
+      1 Message forwarded from myhostname: sshd[15073332]: warning: host name/address mismatch: 176.51.29.152 !=
+ b-internet.176.51.29.152.nsk.rt.ru 
+      1 Message forwarded from myhostname: sshd[15728892]: warning: host name/address mismatch: 89.189.122.181 !
+= dynamic-broadband-89-189-122-181.tushino.com 
+      1 Message forwarded from myhostname: sshd[15925334]: warning: host name/address mismatch: 94.228.199.48 !=
+
+#######################################################################
+Check file sizes within one standard deviation
+
+Not enough files in 10.10.6.208, skipping
+Not enough files in 10.10.6.209, skipping
+Warning: server.ilearn.example.com/syslog.log  (1596 lines) < than lower limit (1 Std Deviation of 2396)  of 1866
+Warning: xy-tools/syslog.log  (2252 lines) > than upper limit (1 Std Deviation of 711)  of 970
+
