@@ -29,13 +29,16 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
-What LongTail does
+What Syslog_Scripts does
 --------------
 
 Installation
 --------------
 
 Installation is manual at the moment.
+
+Please run 
+	cpan File::Tail
 
 Add this line to rc.local (or whatever is appropriate for your site)
 	/data/rsyslog/live_scan_for_invalid_user.pl  &
